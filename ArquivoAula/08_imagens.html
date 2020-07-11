@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--APRENDENDO HTML5, TAGS-->
+<!--doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> Página de exemplo estrutura basica   </title>
+        <meta charset="utf-8">
+        <meta name="autor" content="Thiago">
+        <meta name="description" content=" lista de documentos">
+        <meta nome="keywords" content="html, tecnologia">
+        <style>
+            body{
+                width: 700px;
+                margin: auto;
+                font-family: sans-serif;
+                font-size: 22px;
+                background-image: url(imagens/bg.jpg);
+               /* background-repeat: no-repeat; esse comando faz com que a imagem não se repita*/
+               background-attachment: fixed;
+               background-size: 100% 100%;
+               /*background-size: contain; vai ocupar a area inteira, só que ele vai privilegiar o conteúdo da imagem, mesmo que a imagem se repita*/
+               background-repeat: repeat; /*esse faz com que a imagem se repita*/
+               background-size: cover;
+               background-position: right bottom;;
+
+            }
+            h1{
+                text-align: center;
+
+               
+            }
+            p{
+              
+                line-height:1.5;
+            }
+            .img-html{
+                float: left;
+            }
+            .img-css{
+                float: right;
+            }
+            a:hover{
+                color: rgb(224, 72, 118);
+                text-decoration: underline;
+            }
+            a:active{
+                color: chartreuse;
+            }
+            a:visited{
+                color:red;
+                
+            }
+            a{
+                text-decoration: none;
+            }
+        </style>
+   </head>
+    <body>
+        
+         <h1><a href="https://blog.mastertech.com.br/tecnologia/html-e-css-conceitos-basicos-para-introducao-em-desenvolvimento-front-end/">HTML conceito e CSS3.</a></h1>
+             
+             <img src="imagens/html5.png" class="img-html" alt="Logotipo HTML5"; 
+
+            <p>HTML é construído por tags, elementos e atributos. O  b> e  / b> acima são exemplos de tags.
+             Cada tag é escrita dentro de colchetes angulares. Os navegadores sabem procurar dentro dos parênteses por instruções,
+              sem exibir os parênteses e o texto entre parênteses.
+             Em geral, as tags vêm em pares: uma tag de abertura ou início permite que o navegador saiba
+             “ei, faça essa ação para o texto a seguir” e a tag de fechamento ou final explica ao navegador: “Ok! Pare de fazer essa ação.”
+              A barra (/) é usada apenas na tag de fechamento. Em conjunto, uma tag de abertura (por exemplo,  b>) e uma tag de fechamento 
+              (por exemplo, / b>) formam um elemento.
+            </p>
+              <img src="imagens/css3.png" class="img-css" alt="Logotipo CSS3";
+            <P> CSS pode ser colocado em dois pontos diferentes dentro de um arquivo HTML.
+              Quando colocado no cabeçalho, o CSS se aplica a toda a página, e quando colocado dentro de uma tag, 
+              o CSS dita o estilo para apenas aquela tag. Mas ainda mais comum do que esses dois métodos é um arquivo CSS externo, 
+              que controla a aparência de todo o site.
+              Essas folhas de estilo externas são salvas como arquivos .css (semelhante a como um arquivo HTML é salvo como .html). 
+              É aqui que o “C” em CSS se torna importante. Significa em cascata, o que significa que, teoricamente, 
+              um website pode ter todos os três canais em exibição, bem como a configuração padrão do navegador. 
+              Por exemplo, você pode ter definido em sua folha de estilo externa (que determina o estilo para todo o site) 
+              que todos os cabeçalhos são verdes. Mas quando você está codificando uma página diferente no site, 
+              coloque CSS no cabeçalho que diz que nesta página você quer que todos os cabeçalhos sejam azuis,
+              para distingui-lo do resto do site.</P>
+             
+
+             
+    </body>
+</html>
