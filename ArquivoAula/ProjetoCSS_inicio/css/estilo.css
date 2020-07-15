@@ -1,0 +1,77 @@
+body{
+    background-color:#ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    margin: 150px;
+}
+.hero-content h1{
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #333;
+    font-size: 46px;
+}
+.hero nav ul{
+    text-align: right;
+    margin-right: 50px;
+}
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    border: 2px rgba(230, 209, 209, 0.959) solid;
+    margin-left: 10px;
+}
+.hero nav a{
+    display:block;
+    color:white;
+    background-color: rgb(0, 0, 0, 0.2);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.hero nav a:hover{
+    background: rgb(0, 0, 0, 0.5); 
+}
+main{  
+    width: 80%;
+    margin: auto;
+}
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+.tituloh2{
+    background-color:rgb(218, 214, 214);
+    padding-left: 8px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color:rgb(117, 126, 131);
+}
+.rodape{
+    background-color: rgb(119, 129, 131);
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    font-size: 14px;
+    text-shadow: 2px 2px 3px #333;
+}
+
