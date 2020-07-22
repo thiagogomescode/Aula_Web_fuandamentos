@@ -1,0 +1,129 @@
+body{
+    font-family: tahoma, arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+#principal{
+    width: 1024px;
+    margin:20px auto;
+    
+}
+.header-topo{
+    background-color:rgb(52, 53, 70);
+    height: 50px; 
+    position: relative;   
+}
+.logotipo{
+    margin-left: 18%;
+    padding: 10px 10px 10px 10px;
+}
+.header-nav{
+    position: absolute;
+    right:0;
+    top: 0;
+    margin-right: 40px;
+    height: 100%;
+}
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    display: inline-block;
+    list-style-type:none;
+    margin: 0 15px 0 0;
+    padding:15px 15px 15px 15px;
+    
+}
+.header-nav a{
+    text-decoration: none;
+    color: #425564;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition:color 0.3s linear;
+}
+.header-nav a:hover{
+    color:white;
+}
+.portifolio{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+.portifolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+.portifolio p{
+    font-size: 16;
+    line-height: 2; /* Este comando dar espaço entre as linhas do paragráfo*/
+    color: #425564;
+}
+.gallery{
+    color: #555;
+   padding: 0 100px 50px 100px;
+   overflow:auto;
+}
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight:bold;
+}
+.about{
+    background-image: url(../ProjetoFashion_inicio/imagens/bg_detalhe.png);
+    background-color: #003d52;
+    padding: 100px;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.about h2{
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: normal;/*esse comando tirou o negrito do subtitulo h2*/
+
+}
+.about p{
+    width: 70%;
+    line-height: 1.5;
+}
+#contact{
+margin: 50px 0;
+}
+#contact address{
+    color:#143f52;
+    text-transform: uppercase;
+    font-size: 26px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+}
+.maps iframe{
+    width: 100%;
+}
+.rodape{
+    background-color: #003d52;
+    width: 100%;
+    padding: 15px 15px 15px 15px;
+    margin-top: 20px;
+}
+.rodape p{
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 12px;
+}
