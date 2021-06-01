@@ -1,0 +1,16 @@
+.pricipal{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+
+}
+.header-top{
+    margin: top 1440px;
+}
+article{
+    text-align: center;
+    }
+.imagen-computer{
+    float: left;
+    margin:15px;
+}
